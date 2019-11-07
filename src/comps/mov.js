@@ -12,19 +12,16 @@ export default class mov extends Component {
      
         return (
             
-            <Card style={{ width: '18rem' }}>
+            <Card style={{ width: '18rem' , margin: '10px'}}>
             <Card.Img variant="top" src={'https://image.tmdb.org/t/p/w185'+this.props.movImg} />
             <Card.Body>
             <Card.Title>{this.props.moveName}</Card.Title>
             <Card.Text>
-            {this.props.movD}
+           <b>Rating:</b> {this.props.movD}
             </Card.Text>
            
             <Button onClick={this.movieView.bind(this)} variant="primary">Details</Button>
-            <span/>
-            <br/>
-            <Button onClick={this.movieView.bind(this)} variant="primary">Trailer</Button>
-
+           
             </Card.Body>
         
             </Card>

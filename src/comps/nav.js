@@ -28,7 +28,7 @@ export default class nav extends Component {
             <>
             <Router>
                   <Navbar bg="dark" variant="dark">
-    <Navbar.Brand href="#home">FoodMov</Navbar.Brand>
+    <Navbar.Brand href="#home">MovSEI</Navbar.Brand>
     <Nav className="mr-auto">
 
       

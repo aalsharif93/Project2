@@ -1,0 +1,24 @@
+body{
+    background-image: url("https://cdn4.vectorstock.com/i/1000x1000/82/53/hollywood-red-carpet-background-vector-25218253.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+}
+
+.ttl{
+    text-align: center;
+    margin-top: 420px;
+}
+
+.ttl h1 {
+font-size: 90px;
+color: black ;
+text-shadow: 1px white ;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.ttl p {
+    font-size: 28px;
+    color: black ;
+    text-shadow: 1px white ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
